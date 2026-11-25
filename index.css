@@ -9,8 +9,8 @@ body {
 }
 
 .rotajambon {
-    width: 60vmin;
-    height: 60vmin;
+    width: 30vmin;
+    height: 30vmin;
     object-fit: contain;
     animation: rota 2s linear infinite;
 }
