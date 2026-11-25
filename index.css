@@ -1,0 +1,21 @@
+body {
+    background-color: #252525;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+}
+
+.rotajambon {
+    animation: rota 2s linear infinite;
+}
+
+@keyframes rota {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
