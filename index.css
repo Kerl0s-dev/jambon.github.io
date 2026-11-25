@@ -5,9 +5,13 @@ body {
     align-items: center;
     min-height: 100vh;
     margin: 0;
+    overflow: hidden;
 }
 
 .rotajambon {
+    width: 60vmin;
+    height: 60vmin;
+    object-fit: contain;
     animation: rota 2s linear infinite;
 }
 
